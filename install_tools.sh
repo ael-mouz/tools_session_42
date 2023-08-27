@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#fix dock problem
+defaults delete com.apple.dock; killall Dock
+
 #install_theme
 cd
 rm -rf /Users/ael-mouz/.oh-my-zsh/custom/themes/powerlevel10k
